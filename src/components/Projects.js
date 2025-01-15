@@ -1,28 +1,22 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import project1Image from '../assets/images/Project1.png'; // Import gambar screenshot proyek 1
-import project2Image from '../assets/images/project2.png'; // Import gambar screenshot proyek 2
+import React from "react";
+import { motion } from "framer-motion";
+import project1Image from "../assets/images/Project1.png"; // Import gambar screenshot proyek 2
+import project2Image from "../assets/images/Project3.png"; // Import gambar screenshot proyek 2
 
 const projects = [
   {
-    name: 'Print Shop Sales',
+    name: "Print Shop Sales",
     image: project1Image,
-    description: 'Web-based system for recording sales and financial reports',
-    features: [
-      'Stock Management',
-      'Income Statement',
-    ],
-    technologies: ['Laravel', 'Boostrap'],
+    description: "Web-based system for recording sales and financial reports",
+    features: ["Stock Management", "Income Statement"],
+    technologies: ["Laravel", "Boostrap"],
   },
   {
-    name: 'Portofolio',
+    name: "Portofolio",
     image: project2Image,
-    description: 'React.js based personal portfolio.',
-    features: [
-      'Simple',
-      'Motion',
-    ],
-    technologies: ['React.js'],
+    description: "React.js based personal portfolio.",
+    features: ["Simple", "Motion"],
+    technologies: ["React.js"],
   },
 ];
 
@@ -67,51 +61,50 @@ const Projects = () => {
 
 const styles = {
   section: {
-    padding: '20px',
-    textAlign: 'center',
-    backgroundColor: '#097351',
+    padding: "20px",
+    textAlign: "center",
+    backgroundColor: "#097351",
   },
   title: {
-    color: '#F59C40',
+    color: "#F59C40",
   },
   projectsContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '30px',
-    flexWrap: 'wrap',
-    marginTop: '20px',
+    display: "flex",
+    justifyContent: "center",
+    gap: "30px",
+    flexWrap: "wrap",
+    marginTop: "20px",
   },
   projectCard: {
-    backgroundColor: '#fff',
-    borderRadius: '10px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    width: '300px',
-    padding: '20px',
-    textAlign: 'center',
-    color: '#097351',
+    backgroundColor: "#fff",
+    borderRadius: "10px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    width: "300px",
+    padding: "20px",
+    textAlign: "center",
+    color: "#097351",
   },
   projectImage: {
-    width: '100%',
-    height: '200px',
-    borderRadius: '8px',
-    objectFit: 'cover',
-    marginBottom: '15px',
+    width: "100%",
+    height: "200px",
+    borderRadius: "8px",
+    objectFit: "cover",
+    marginBottom: "15px",
   },
   featuresList: {
-    listStyleType: 'disc',
-    textAlign: 'left',
-    marginLeft: '20px',
-    color: '#097351',
+    listStyleType: "disc",
+    textAlign: "left",
+    marginLeft: "20px",
+    color: "#097351",
   },
   technologiesList: {
-    listStyleType: 'square',
-    textAlign: 'left',
-    marginLeft: '20px',
+    listStyleType: "square",
+    textAlign: "left",
+    marginLeft: "20px",
   },
   description: {
-    color: '#097351',
-  }
-
+    color: "#097351",
+  },
 };
 
 export default Projects;
