@@ -5,23 +5,23 @@ import SertifikatHMP from '../assets/images/Sertifikat-HMP.jpg';
 const Experience = () => {
   return (
     <div className="experience-section" id='experience'>
-      <h2 className="experience-title">Organizational Experience</h2>
+      <h2 className="experience-title">Pengalaman Organisasi</h2>
       
       {/* Pengalaman Organisasi 1 */}
       <div className="experience-item">
-        <h3 className="experience-role">Member of the Public Relations Division</h3>
+        <h3 className="experience-role">Anggota Divisi Humas</h3>
         <p className="experience-period">Periode: November 2020 - September 2021</p>
         <p className="experience-description">
-          Administering the association to students and the community, delivering proposals to sponsors and correspondence
+        Mengurus himpunan kepada mahasiswa dan masyarakat, menyampaikan proposal kepada sponsor dan surat menyurat
         </p>
       </div>
       
       {/* Pengalaman Organisasi 2 */}
       <div className="experience-item">
-        <h3 className="experience-role">Advocate and Propaganda Division Staff</h3>
+        <h3 className="experience-role">Staff Divisi Advokasi dan Propaganda</h3>
         <p className="experience-period">Periode: November 2021 - September 2022</p>
         <p className="experience-description">
-        As a voice channel from students to the faculty, a place of mediation for several members, applying relevant regulations for association use
+        Sebagai saluran suara mahasiswa kepada dosen, tempat mediasi beberapa anggota, penerapan peraturan terkait Himpunan
         </p>
       </div>
       

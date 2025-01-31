@@ -19,9 +19,7 @@ const About = () => {
           style={styles.profileImage} 
         />
         <p style={styles.description}>
-          Hello! I'm Mustafa Kamal, a passionate software developer from Indonesia.
-          I love building web applications and exploring new technologies.
-          I'm always eager to learn and create innovative solutions.
+        Halo! Saya Mustafa Kamal, seorang pengembang perangkat lunak yang bersemangat dari Indonesia. Saya suka membangun aplikasi web dan menjelajahi teknologi baru. Saya selalu bersemangat untuk belajar dan menciptakan solusi inovatif.
         </p>
       </div>
     </motion.section>

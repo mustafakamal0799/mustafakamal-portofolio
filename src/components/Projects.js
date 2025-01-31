@@ -1,21 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
-import project1Image from "../assets/images/Project1.png"; // Import gambar screenshot proyek 2
-import project2Image from "../assets/images/Project3.png"; // Import gambar screenshot proyek 2
+import project1Image from "../assets/images/ProjectOne.jpg"; // Import gambar screenshot proyek 2
+import project2Image from "../assets/images/ProjectTwo.jpg"; // Import gambar screenshot proyek 2
 
 const projects = [
   {
-    name: "Print Shop Sales",
+    name: "Aplikasi Laporan Keuangan & Manajemen Stok Barang",
     image: project1Image,
-    description: "Web-based system for recording sales and financial reports",
-    features: ["Stock Management", "Income Statement"],
+    description: "Saya mengembangkan sebuah aplikasi berbasis web untuk manajemen laporan keuangan dan stok barang menggunakan Laravel dan Bootstrap. Aplikasi ini dirancang untuk membantu bisnis dalam mengelola transaksi keuangan, arus kas, serta pemantauan stok barang secara real-time.",
+    features: ["Manajemen Stok Barang", "Laporan Keuangan", "Pendapatan & Pengeluaran", "Manajemen User", "Desain Responsif"],
     technologies: ["Laravel", "Boostrap"],
   },
   {
-    name: "Portofolio",
+    name: "Website Informasi Relawan Kebakaran Bardes",
     image: project2Image,
-    description: "React.js based personal portfolio.",
-    features: ["Simple", "Motion"],
+    description: "Saya mengembangkan sebuah website berbasis React.js untuk mendukung Relawan Kebakaran Bardes dalam menyebarkan informasi dan dokumentasi kegiatan mereka. Website ini bertujuan untuk memperkenalkan relawan kepada masyarakat serta memberikan informasi mengenai struktur organisasi, anggota, dan dokumentasi kegiatan mereka.",
+    features: ["Profil Relawan", "Struktur Organisasi", "Daftar Anggota", "Galeri & Dokumentasi "],
     technologies: ["React.js"],
   },
 ];
@@ -38,7 +38,7 @@ const Projects = () => {
               alt={project.name}
               style={styles.projectImage}
             />
-            <h3>{project.name}</h3>
+            <h3 style={styles.name}>{project.name}</h3>
             <p style={styles.description}>{project.description}</p>
             <h4>Features</h4>
             <ul style={styles.featuresList}>
@@ -86,10 +86,9 @@ const styles = {
   },
   projectImage: {
     width: "100%",
-    height: "200px",
-    borderRadius: "8px",
-    objectFit: "cover",
-    marginBottom: "15px",
+    height: "500px",
+    borderRadius: "10px",
+    objectFit: "contain",
   },
   featuresList: {
     listStyleType: "disc",
@@ -104,7 +103,11 @@ const styles = {
   },
   description: {
     color: "#097351",
+    textAlign: "justify"
   },
+  name: {
+    marginBottom:"20px"
+  }
 };
 
 export default Projects;
